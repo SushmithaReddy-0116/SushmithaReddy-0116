@@ -1,0 +1,30 @@
+/*  FIZZ-BUZZ PROGRAM
+CODITIONS 
+1. If number is divisible by both 3 and 5....FizzBUzz
+2. If number is divisible by only 3....Fizz
+3. If number is divisible by only 5....Buzz
+4. If number is not divisible by neither 3 nor 5.Not a FizzBuzz*/
+import java.util.Scanner;
+class FIZZBUZZPROGRAM
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number");
+		int num =sc.nextInt();
+		if(num%3==0 && num%5==0){
+			System.out.println(num+"is FIZZNUZZ");
+		}
+		else if(num%3==0){
+			System.out.println(num+"is Fizz");
+		}
+		else if(num%==0){
+			System.out.println(num+"is Buzz");
+		}
+		else{
+			System.out.println("not a FIZZBUZZ");
+		}
+	}
+}
+
+		
